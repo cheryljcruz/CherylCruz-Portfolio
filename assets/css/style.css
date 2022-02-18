@@ -1,7 +1,7 @@
 /*Main style*/
 :root {
     --primary-color: #f7aea6;
-    --secondary-color: #566573;
+    --secondary-color: #85929e;
     --tertiary-color: #a2d9ce;
 }
 * {
@@ -139,8 +139,9 @@ section {
 }
 /*Hero style end*/
 
-/*Section Title style starts*/
+/*Section/Primary title style starts*/
 .section-title {
+    color: var(--secondary-color);
     margin: -35px 10px 30px 0;
     font-size: 40px;
     position: relative;
@@ -155,6 +156,20 @@ section {
     border-right: 3px solid;
     height: 200px;
 }
+/*Section/Primary title style ends*/
 
-/*About me section*/
+/*About section*/
+.about p {
+    line-height: 1.5;
+    color: var(--tertiary-color);
+    width: 80%;
+    margin: -35px 10px 50px 0;
+    font-size: 20px;
+    position: relative;
+    top: -100px;
+    left: -100px;
+    text-align: right;
+}
+/*About section ends*/
+
 
