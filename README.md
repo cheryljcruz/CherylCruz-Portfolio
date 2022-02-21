@@ -9,6 +9,6 @@ A website that displays advanced CSS knowledge.
 
 Screenshot of webpage
 
-![image of webpage](assets\images\screenshot of webpage.png?raw=true)
+![image of webpage](assets/images/screenshot of webpage.png)
 
 [Deployed webpage](https://cheryljcruz.github.io/CherylCruz-Portfolio/)
