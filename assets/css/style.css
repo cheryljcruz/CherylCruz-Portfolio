@@ -1,8 +1,8 @@
 /*Main style*/
 :root {
-    --primary-color: #f7aea6;
-    --secondary-color: #aab7b8;
-    --tertiary-color: #a2d9ce;
+    --primary-color: #f5c7af;
+    --secondary-color: #64b6ac;
+    --tertiary-color: #13807c;
 }
 * {
     margin: 0;
@@ -13,7 +13,8 @@
 body {
     font-family: Verdana, "Trebuchet MS", sans-serif;
     color: var(--tertiary-color);
-    background-color: #f9ebea;
+    background-color:#fffce2;
+
 }
 
 /*Header & Nav Bar style start*/
@@ -143,8 +144,8 @@ section {
 /*Section/Primary title style starts*/
 .section-title {
     font-size: 40px;
-    color: var(--secondary-color);
-    border-bottom: 3px solid;
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--tertiary-color);
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -152,7 +153,7 @@ section {
 }
 
 .primary-title {
-    border-color: var(--primary-color);
+    border-color: var(--secondary-color);
 }
 
 .secondary-border {
@@ -174,12 +175,11 @@ section {
 
 /*Project section begins*/
 .project { 
-    margin: 20px;
+    margin: 10px;
     background: var(--secondary-color);
     color: var(--primary-color);
     flex: 1;
     text-align: center;
-    object-fit: contain;
 }
 .projects {
     width: 100%;
@@ -209,6 +209,7 @@ section {
     font-weight: lighter;
     font-size: 20px;
     margin-bottom: 20px;
+    color: white;
 }
 /* not finished*/
 
@@ -223,8 +224,9 @@ section {
 
 .contact-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    text-align: -webkit-center;
 }
  .contact-info > * {
      flex:1;
@@ -237,7 +239,7 @@ section {
 
  .contact-info h3 {
      color: var(--primary-color);
-     font-size: 32px;
+     font-size: 35px;
  }
 
  .contact-info p {
@@ -248,16 +250,20 @@ section {
  }
 
  form {
-     border: 2px dotted var(--tertiary-color);
+     border: 5px dotted white;
+     margin-left: 30%;
+     margin-right: 30%;
+     color: white;
+     padding: 10px;
 
  }
 
  .contact-form input, .contact-form textarea {
-     border: 1px solid var(--tertiary-color);
+     border: 2px solid white;
      display: block;
-     padding: 7px 15px;
+     padding: 15px 15px;
      font-size: 16px;
-     color: var(--secondary-color);
+     color: white;
      width: 100%;
      margin-bottom: 15px;
      margin-top: 5px;
@@ -283,8 +289,21 @@ section {
 
  .contact-form button:hover {
      color: var(--primary-color);
-     background: var(--tertiary-color);
+     background: white;
  }
+
+ .contact-social {
+     text-align: center;
+     color: white;
+     padding: 20px;
+     font-size: 25px;
+ }
+
+ .social ul li {
+     display: inline-block;
+     padding: 15px 0 0 0 ;
+ }
+
 
  /*contact style ends*/
 
