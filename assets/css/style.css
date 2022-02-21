@@ -112,7 +112,7 @@ section {
 
 .hero-cta {
     width: 35%;
-    text-align: right;
+    text-align: left;
     margin: 3.5%;
     color:#a2d9ce;
     font-size: 18px;
@@ -211,7 +211,7 @@ section {
     margin-bottom: 20px;
     color: white;
 }
-/* not finished*/
+/*project style ends*/
 
 /*contact section*/
 .contact {
@@ -311,6 +311,12 @@ section {
      display: flex;
  }
 
+ .text-left {
+     text-align: left;
+ }
+ .text-right {
+    text-align: right;
+}
  /* Media Query for smaller desktop screens and smaller */
 @media screen and (max-width: 980px) {
     header {
