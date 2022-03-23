@@ -180,7 +180,7 @@ section {
     color: var(--primary-color);
     flex: 1;
     text-align: center;
-    padding: 15px;
+    
 }
 .projects {
     width: 100%;
@@ -190,10 +190,14 @@ section {
     justify-content: space-around;
 }
 
-.project-img {
+.project-image {
     width: 100%;
-    overflow: hidden;
+    overflow:auto;
+    
+}
 
+.project-img {
+    overflow: hidden;
 }
 
 .project-info {
