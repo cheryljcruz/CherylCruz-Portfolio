@@ -175,11 +175,12 @@ section {
 
 /*Project section begins*/
 .project { 
-    margin: 10px;
+    margin: 20px;
     background: var(--secondary-color);
     color: var(--primary-color);
     flex: 1;
     text-align: center;
+    padding: 15px;
 }
 .projects {
     width: 100%;
